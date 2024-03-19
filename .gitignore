@@ -1,0 +1,37 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore build artifacts
+build/
+dist/
+out/
+
+# Ignore dependency lock files
+yarn.lock
+package-lock.json
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore system files
+Thumbs.db
